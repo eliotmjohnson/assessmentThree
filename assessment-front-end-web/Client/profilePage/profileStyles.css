@@ -1,10 +1,10 @@
 @font-face {
     font-family: myNewFont;
-    src: url(./Fonts/DeliciousHandrawn-Regular.ttf);
+    src: url(../../Fonts/DeliciousHandrawn-Regular.ttf);
 }
 
 body {
-    background-image: url(./Images/JavaScript-code.jpg);
+    background-image: url(../../Images/JavaScript-code.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;

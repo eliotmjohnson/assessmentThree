@@ -1,18 +1,101 @@
-body {
-  background: #ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+@font-face {
+	font-family: myNewFont;
+	src: url(../../Fonts/DeliciousHandrawn-Regular.ttf);
 }
 
-nav {
-	border-bottom: 2px solid orange;
+body {
+	background-image: url(../../Images/JavaScript-code.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	backdrop-filter: blur(7px);
+}
+
+#content {
+	max-width: 1000px;
+	height: auto;
+	font-family: myNewFont;
+	letter-spacing: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+input {
+	display: block;
 }
 
 ol {
-	padding-left: 0;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid orange;
+	display: flex;
+	justify-content: center;
+}
+
+#contact {
+	color: #CE6C47;
+}
+
+h1 {
+	font-size: 50px;
+	color: #FFD046;
+	margin: 55px;
+	text-shadow: 0 0 20px #CE6C47, 1px 1px 10px #CE6C47, 0 0 30px #CE6C47;
+}
+
+h3 {
+	color: #EADAA2;
+	margin: 0;
+	font-size: 33px;
+	text-shadow: 0 0 15px #FFD046, 0 0 10px #CE6C47;
+}
+
+#dsc {
+	text-align: center;
+	color: #CE6C47;
+	margin: 40px;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+
+#form-div {
+	display: flex;
+	margin: 20px;
+	margin-left: 0px;
+}
+
+#career-dsc {
+	text-align: center;
+	color: #CE6C47;
+	margin: 40px;
+	font-size: 28px;
+	margin-bottom: 0px;
+}
+
+#list-cont {
+	margin-bottom: 0px;
+}
+
+#career-title {
+	margin-top: 20px;
+}
+
+#skill-title {
+	margin-bottom: 20px;
+}
+
+.list-items {
+	color: #CE6C47;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .crumb {
@@ -22,17 +105,56 @@ ol {
 
 a {
 	color: orange;
+	font-size: 20px;
 }
 
 a:visited {
-	color: crimson;
+	color: #e49c82
 }
 
-
-input {
-	display: block;
+a:hover {
+	color: #960200;
 }
 
 img {
 	max-width: 300px;
+	box-shadow: 0 0 20px 2px white;
+	margin-bottom: 50px;
+}
+
+#fave-things {
+	margin: 60px;
+	margin-bottom: 10px;
+}
+
+#image-gallery {
+	margin: 30px;
+	height: auto;
+	width: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.images {
+	margin: 20px;
+	height: 225px;
+}
+
+.buttons-div {
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.buttons {
+	color: #CE6C47;
+	cursor: pointer;
+	background-color: #FFD046;
+	border: 0;
+	border-radius: 50%;
+	height: 100px;
+	margin-left: 20px;
+	font-family: inherit;
+	letter-spacing: 1px;
+	font-size: 20px;
 }

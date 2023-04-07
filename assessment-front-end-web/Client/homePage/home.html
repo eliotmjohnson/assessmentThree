@@ -8,43 +8,46 @@
 </head>
 
 <body>
-	<nav>
-		<ol>
-			<li class="crumb"><a href="./home.html">Home</a></li>
-			<li class="crumb"><a href="../profilePage/profile.html">Profile</a></li>
-			<li class="crumb"><a href="../extraCredit/about.html">About</a></li>
-		</ol>
-	</nav>
-	<content class="profile-content">
+	<div id="content">
+		<nav>
+			<ol>
+				<li class="crumb"><a href="./home.html">Home</a></li>
+				<li class="crumb"><a href="../profilePage/profile.html">Profile</a></li>
+				<li class="crumb"><a href="../extraCredit/about.html">About</a></li>
+			</ol>
+		</nav>
 		<h1>Welcome to this little website.</h1>
 		<!-- insert hello world here -->
-		<p id="hello-world">Hello World!</p>
-		<p>Thank you for visiting our fun, fantantastic, and fabulous website!! Have a pleasant stay and don't forget to
+		<h3>Hello World!</h3>
+		<p id="dsc">Thank you for visiting our fun, fantantastic, and fabulous website!! Have a pleasant stay and don't
+			forget to
 			say hi to the rubber ducky!!</p>
 		<img id="duck" src="../../Images/Computer-Geek-Rubber-Duck-Schanables-3__49617.jpg">
 		<ul>
-			<li>You are smart</li>
-			<li>You are kind</li>
-			<li>You are important</li>
+			<li class="list-items">You are smart</li>
+			<li class="list-items">You are kind</li>
+			<li class="list-items">You are important</li>
 		</ul>
-		<h2>Contact Us</h2>
+		<h3>Contact Us</h3>
 		<form id="contact">
 			Your name:
 			<input type="text">
 			Message:
 			<input type="textarea">
 			<p>How did you hear about us?</p>
-			Google
-			<input type="checkbox">
-			A Friend
-			<input type="checkbox">
-			Other
-			<input type="checkbox">
-			<input type="submit">
+			<div id="form-div">
+				Google
+				<input type="checkbox">
+				A Friend
+				<input type="checkbox">
+				Other
+				<input type="checkbox">
+				<input type="submit">
+			</div>
 		</form>
 
 		</form>
-	</content>
+	</div>
 	<script src="./home.js"></script>
 </body>
 

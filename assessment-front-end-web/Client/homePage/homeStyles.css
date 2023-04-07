@@ -70,27 +70,6 @@ h3 {
 	margin: 20px;
 	margin-left: 0px;
 }
-
-#career-dsc {
-	text-align: center;
-	color: #CE6C47;
-	margin: 40px;
-	font-size: 28px;
-	margin-bottom: 0px;
-}
-
-#list-cont {
-	margin-bottom: 0px;
-}
-
-#career-title {
-	margin-top: 20px;
-}
-
-#skill-title {
-	margin-bottom: 20px;
-}
-
 .list-items {
 	color: #CE6C47;
 	font-size: 20px;
@@ -108,10 +87,6 @@ a {
 	font-size: 20px;
 }
 
-a:visited {
-	color: #e49c82
-}
-
 a:hover {
 	color: #960200;
 }
@@ -120,41 +95,4 @@ img {
 	max-width: 300px;
 	box-shadow: 0 0 20px 2px white;
 	margin-bottom: 50px;
-}
-
-#fave-things {
-	margin: 60px;
-	margin-bottom: 10px;
-}
-
-#image-gallery {
-	margin: 30px;
-	height: auto;
-	width: 1px;
-	display: flex;
-	align-items: center;
-	justify-content: center
-}
-
-.images {
-	margin: 20px;
-	height: 225px;
-}
-
-.buttons-div {
-	height: auto;
-	margin-bottom: 20px;
-}
-
-.buttons {
-	color: #CE6C47;
-	cursor: pointer;
-	background-color: #FFD046;
-	border: 0;
-	border-radius: 50%;
-	height: 100px;
-	margin-left: 20px;
-	font-family: inherit;
-	letter-spacing: 1px;
-	font-size: 20px;
 }
